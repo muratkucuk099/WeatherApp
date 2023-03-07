@@ -7,3 +7,16 @@
 //
 
 import Foundation
+import CoreLocation
+
+protocol LocationManagerDelegate {
+    func didUpdateLocationManager(_ locationManager: LocationManager)
+        
+    
+    
+}
+
+struct LocationManager {
+    var delegate = LocationManagerDelegate?.self
+    
+}
