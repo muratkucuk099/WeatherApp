@@ -27,29 +27,7 @@ By the end of the module, you will have made a beautiful, dark-mode enabled weat
 * Learn to use Grand Central Dispatch to fetch the main thread.
 * Learn to use Core Location to get the current location from the phone GPS. 
 
-### Condition Codes
-```
-switch conditionID {
-        case 200...232:
-            return "cloud.bolt"
-        case 300...321:
-            return "cloud.drizzle"
-        case 500...531:
-            return "cloud.rain"
-        case 600...622:
-            return "cloud.snow"
-        case 701...781:
-            return "cloud.fog"
-        case 800:
-            return "sun.max"
-        case 801...804:
-            return "cloud.bolt"
-        default:
-            return "cloud"
-        }
-```
+<img width="358" alt="Ekran Resmi 2023-03-07 22 58 41" src="https://user-images.githubusercontent.com/74858113/223554400-de69bba1-f5e9-44f6-a642-48463e35ceca.png">
+<img width="356" alt="Ekran Resmi 2023-03-07 22 59 40" src="https://user-images.githubusercontent.com/74858113/223554418-751885ed-c714-40ab-81c4-c84bbc332383.png">
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
 # WeatherApp
